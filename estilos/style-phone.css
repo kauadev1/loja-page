@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'vogue';
+  src: url('../fontes/Vogue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: 'caviar';
+  src: url('../fontes/CaviarDreams.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: 'coolvetica';
+  src: url('../fontes/coolvetica\ rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+  /* 
+  Tipos de format()
+  - opentype (otf)
+  - truetype (ttf)
+  - embedded-opentype
+  - truetype-aat (Apple Advanced Typography)
+  - svg
+  */
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+header h2{
+  font-family: 'vogue', Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  font-weight: lighter;
+  padding-right: 35vw;
+}
+
+header > section{
+  display: none;
+}
+
+menu{
+  display: none;
+}
+
+span{
+  text-align: center;
+}
+
+span#menu{
+  background-color: #f47ad3;
+  border-radius: 18px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+div#rolagem2{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.texto-rolagem2{
+  margin-top: 90px;
+  padding-left: 40px;
+}
+
+.texto-rolagem2 h2{
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+.texto-rolagem2 h1{
+  color: #f47ad3;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.texto-rolagem2 p{
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgba(153, 153, 153, 0.692);
+  padding-bottom: 10px;
+}
+
+.imagem-rolagem2 > img{
+  margin: auto;
+  padding: 10vw;
+}
+
+.texto-rolagem2 a{
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  color: #f47ad3;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+.imagem-rolagem2 > article{
+  margin-top: -220px;
+  text-align: center;
+}
+
+.imagem-rolagem2  h2{
+  font-family: 'vogue', Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+.imagem-rolagem2 p{
+  color: white;
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+.imagem-rolagem2 a{
+  color: #cb24d1;
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.produtos1{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+section.novidades-titulo{
+  text-align: center;
+  font-family: 'coolvetica';
+  font-weight: lighter;
+}
+
+#novidades h2{
+  font-weight: lighter;
+  padding: 30px 10px 10px 10px;
+}
+
+#novidades a{
+  color: #f47ad3;
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+}
+
+#novidades img{
+  height: 270px;
+  width: 180px;
+}
+
+section.novidades-produtos h3{
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+section.novidades-produtos p{
+  text-align: center;
+}
+
+section.novidades-produtos .valor{
+  color: #eb45bf;
+}
