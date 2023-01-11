@@ -52,6 +52,24 @@ menu{
   display: none;
 }
 
+menu > ul > li > a{
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+}
+
+
+ul  a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+  text-align: center;
+}
+
 span{
   text-align: center;
 }
@@ -95,8 +113,10 @@ div#rolagem2{
 }
 
 .imagem-rolagem2 > img{
+  display: block;
   margin: auto;
-  padding: 10vw;
+  padding-bottom: 10vw;
+  padding-top: 10vw;
 }
 
 .texto-rolagem2 a{
@@ -133,7 +153,8 @@ div#rolagem2{
 }
 
 .produtos1{
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: row;
   gap: 30px;
