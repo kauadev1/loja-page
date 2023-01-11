@@ -72,6 +72,8 @@ li{
 
 span{
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 span#menu{
@@ -80,7 +82,19 @@ span#menu{
   width: 30px;
   height: 30px;
   cursor: pointer;
-  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+menu > ul > li > a{
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white(0, 0, 0, 0.829);
+  color: black;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
 }
 
 div#conjunto-verao{
@@ -239,4 +253,3 @@ section.pagamento img{
 footer img.instagram{
   padding-left: 40px;
 }
-
