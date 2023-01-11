@@ -173,8 +173,8 @@ div#rolagem2{
 }
 
 .produtos1{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -184,6 +184,7 @@ div#rolagem2{
 section.novidades-titulo{
   text-align: center;
   font-family: 'coolvetica' , Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
 }
 
 #novidades h2{
@@ -208,6 +209,7 @@ section.novidades-produtos h3{
 
 section.novidades-produtos p{
  padding-left: 50px;
+ padding-bottom: 0px;
 }
 
 section.novidades-produtos .valor{
@@ -217,6 +219,8 @@ section.novidades-produtos .valor{
 
 div#conjunto-inverno{
  text-align: center;
+ padding-top: 30px;
+ padding-bottom: 15px;
 }
 
 footer{
