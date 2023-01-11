@@ -83,6 +83,10 @@ span#menu{
   padding-top: 5px;
 }
 
+div#conjunto-verao{
+  display: none;
+}
+
 div#rolagem2{
   display: flex;
   flex-direction: column-reverse;
@@ -110,13 +114,14 @@ div#rolagem2{
   font-weight: lighter;
   color: rgba(153, 153, 153, 0.692);
   padding-bottom: 10px;
+  padding-left: 2px;
 }
 
 .imagem-rolagem2 > img{
   display: block;
   margin: auto;
   padding-bottom: 10vw;
-  padding-top: 10vw;
+  padding-top: 3vw;
 }
 
 .texto-rolagem2 a{
@@ -124,6 +129,7 @@ div#rolagem2{
   color: #f47ad3;
   text-decoration: none;
   font-size: 1.4em;
+  padding-left: 2px;
 }
 
 .imagem-rolagem2 > article{
@@ -157,13 +163,13 @@ div#rolagem2{
   padding-bottom: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 30px;
 }
 
 section.novidades-titulo{
   text-align: center;
-  font-family: 'coolvetica';
-  font-weight: lighter;
+  font-family: 'coolvetica' , Arial, Helvetica, sans-serif;
 }
 
 #novidades h2{
@@ -187,9 +193,49 @@ section.novidades-produtos h3{
 }
 
 section.novidades-produtos p{
-  text-align: center;
+ padding-left: 50px;
 }
 
 section.novidades-produtos .valor{
   color: #eb45bf;
+  padding-left: 60px;
 }
+
+div#conjunto-inverno{
+ text-align: center;
+}
+
+footer{
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+footer h3{
+  color: #ff60d2;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+footer h3, p{
+  padding: 0px 0px 13px 8vw;
+}
+
+section.pagamento{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+section.pagamento h3{
+  padding-bottom: 20px;
+}
+
+section.pagamento img{
+  padding-left: 6vw;
+}
+
+footer img.instagram{
+  padding-left: 40px;
+}
+

@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos/style-phone.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>Ana Modas</title>
 </head>
 <body>
@@ -15,13 +14,13 @@
     <span id="menu"class="material-symbols-outlined" onclick="clickMenu()">
       menu
       </span>
-    <menu id="itens">
-      <ul>
-        <li><a href="">Conjuntos</a></li>
-        <li><a href="">Roupas</a></li>
-        <li><a href="">Agende seu horário</a></li>
-      </ul>
-    </menu>
+      <menu id="itens">
+        <ul>
+          <li><a href="">Conjuntos</a></li>
+          <li><a href="">Roupas</a></li>
+          <li><a href="">Agende seu horário</a></li>
+        </ul>
+      </menu>
     <section>
       <a href=""><img src="Imagens/lupa.png" alt="Pesquise aqui"></a>
       <a href=""><img src="Imagens/conta.png" alt="Seu perfil"></a>
@@ -91,7 +90,12 @@
       </section>
     </div>
     <div id="conjunto-inverno">
-      <img src="Imagens/ultima-imagem-desktop.png" alt="Conjunto inverno">
+      <a href="">
+        <picture>
+          <source media="(max-width: 600px)" srcset="Imagens/ultima-imagem-phone.png" type="image/png">
+          <img src="Imagens/ultima-imagem-desktop.png" alt="Conjunto inverno">
+        </picture>
+      </a>
     </div>
   </main><br>
   <footer>
@@ -99,11 +103,11 @@
       <section class="contato">
         <h3>Contato</h3>
         <p>Fale conosco</p>
-        <p>(44)99909-2318</p>
-        <p>(44)99909-2318</p>
-        <p>analimapvai@gmail.com</p>
-        <img src="Imagens/instagram-icon.png" alt="">
-        <img src="Imagens/facebook-icon.png" alt="">
+        <p><img width="20px" src="Imagens/whatts-icon.png" alt=""> (44)99909-2318</p>
+        <p><img width="20px" src="Imagens/telefone-icon.png" alt=""> (44)99909-2318</p>
+        <p><img width="20px" src="Imagens/email-icon.png" alt=""> analimapvai@gmail.com</p>
+        <img class="instagram"  width="20px" src="Imagens/instagram-icon.png" alt="">
+        <img width="20px" src="Imagens/facebook-icon.png" alt="">
       </section>
       <section class="sobre">
         <h3>Sobre</h3>
@@ -121,7 +125,7 @@
       </section>
       <section class="pagamento">
         <h3>Formas de pagamento</h3>
-        <img src="Imagens/formas-de-pagamento.png" alt="">
+        <img  width="200px" src="Imagens/formas-de-pagamento.png" alt="">
       </section>
     </div>
   </footer>
