@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+  div{
+    display: flex;
+  }
+
+  header h2{
+    padding-right: 3vw;
+  }
+
+  header > div > menu > ul{
+    display: block;
+  }
+  span#menu{
+    display: none;
+  }
+
+  menu{
+    display: flex;
+  }
+
+  menu > ul > li{
+    display: inline-block;
+    padding-right: 4px;
+  }
+
+  menu > ul > li > a{
+    padding: 0px;
+    border: 0px;
+    font-family: 'coolvetica', Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  header > div > section{
+    display: flex;
+  }
+
+div#conjunto-verao{
+  display: block;
+}
+}

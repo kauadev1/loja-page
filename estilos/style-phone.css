@@ -35,16 +35,22 @@ header{
   padding: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 header h2{
   font-family: 'vogue', Arial, Helvetica, sans-serif;
   font-size: 2.5em;
   font-weight: lighter;
-  padding-right: 35vw;
 }
 
-header > section{
+header div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > div > section{
   display: none;
 }
 
@@ -52,25 +58,8 @@ menu{
   display: none;
 }
 
-menu > ul > li > a{
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
-}
-
-
-ul  a{
-  text-decoration: none;
-}
-
 li{
   list-style-type: none;
-  text-align: center;
-}
-
-span{
   text-align: center;
 }
 
@@ -86,10 +75,10 @@ menu > ul > li > a{
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  background-color: white(0, 0, 0, 0.829);
   color: black;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
+  font-family: 'coolvetica', Arial, Helvetica, sans-serif;
 }
 
 div#conjunto-verao{
@@ -130,7 +119,7 @@ div#rolagem2{
   display: block;
   margin: auto;
   padding-bottom: 10vw;
-  padding-top: 3vw;
+  padding-top: 0vw;
 }
 
 .texto-rolagem2 a{
