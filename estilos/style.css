@@ -1,43 +1,124 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  header div{
+    gap: 40vw;
+  }
 
-  div{
+.texto-rolagem2{
+  padding-left: 10vw;
+} 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* TABLET */
+
+  header div{
+    gap: 9vw;
+  }
+
+  .texto-rolagem2 h2{
+    padding-top: 30px;
+  }
+
+  .texto-rolagem2 h1{
+    font-size: 3.7em;
+    padding-bottom: 10px;
+  }
+
+  .texto-rolagem2 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  div#novidades{
+    padding-top: 50px;
+  }
+
+ .novidades-produtos{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
   }
 
-  header h2{
-    padding-right: 3vw;
+  .produtos1{
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 768px){
+
+  header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  menu{
+    display: inline;
   }
 
-  header > div > menu > ul{
-    display: block;
-  }
   span#menu{
     display: none;
   }
 
-  menu{
-    display: flex;
+  header > div > section{
+    display: inline;
   }
 
-  menu > ul > li{
-    display: inline-block;
+  menu  ul {
+    display: flex;
     padding-right: 4px;
   }
 
   menu > ul > li > a{
-    padding: 0px;
-    border: 0px;
-    font-family: 'coolvetica', Arial, Helvetica, sans-serif;
-    text-align: center;
+    border: none;
   }
+    div#conjunto-verao{
+      display: block;
+      padding: 20px;
+    }
+    
+    div#conjunto-verao img{
+      width: 100%;
+    }
 
-  header > div > section{
-    display: flex;
-  }
 
-div#conjunto-verao{
-  display: block;
-}
+    div#conjunto-inverno img{
+      width: 100%;
+    }
+
+    div#rolagem2{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .texto-rolagem2 h2{
+      padding-top: 30px;
+    }
+  
+    .texto-rolagem2 h1{
+      font-size: 3.7em;
+      padding-bottom: 10px;
+    }
+  
+    .texto-rolagem2 p{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    div#novidades{
+      padding-top: 50px;
+    }
+  
+   .novidades-produtos{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .produtos1{
+      gap: 10px;
+    }
+
 }

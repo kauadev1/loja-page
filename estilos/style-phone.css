@@ -115,6 +115,7 @@ div#rolagem2{
   padding-left: 2px;
 }
 
+
 .imagem-rolagem2 > img{
   display: block;
   margin: auto;
@@ -148,6 +149,7 @@ div#rolagem2{
   font-family: 'coolvetica', Arial, Helvetica, sans-serif;
   font-weight: lighter;
   padding-bottom: 5px;
+  padding-left: 10px;
 }
 
 .imagem-rolagem2 a{
